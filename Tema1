@@ -1,0 +1,28 @@
+a=[1,2,3,4,5]
+>>> a.reverse()
+>>> a
+[5, 4, 3, 2, 1]
+
+
+>>> a=[1,1,2,2,2,2,3,3,3]
+>>> b=2
+>>> count = a.count(b)
+>>> a
+[1, 1, 2, 2, 2, 2, 3, 3, 3]
+>>> count
+4
+
+a='ana are mere si nu are pere'
+>>> total=1
+>>> for i in range(len(a)):
+	if(a[i] == ' ' or a=='\n'):
+		total=total+1
+		print("the number of words=",total)
+
+		
+the number of words= 2
+the number of words= 3
+the number of words= 4
+the number of words= 5
+the number of words= 6
+the number of words= 7
