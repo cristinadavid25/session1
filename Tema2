@@ -1,0 +1,35 @@
+st = input('Input a string:')
+x = [] 
+if len(st)%2==0:
+    for i in range(0,len(st)-1,2):
+        x.append(st[i]+st[i+1])
+else:
+    st +='_'
+    for i in range(0,len(st)-1,2):
+        x.append(st[i]+st[i+1])
+print(x)
+
+
+
+
+def reverse_function(Sentence):
+    words=Sentence.split(" ")
+    reverse_sentence=' '.join(reversed(words))
+    return reverse_sentence
+abc = "This is an example!"
+print (reverse_function(abc)) 
+
+
+
+
+ class Human:
+	Men='Adam'
+	Women='Eva'	
+>>> m=Human()
+>>> print(m.Men,m.Women)
+Adam Eva
+>>> f=Human()
+>>> print(f.Men,f.Women)
+Adam Eva
+>>> print(f.Men)
+Adam
